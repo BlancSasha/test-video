@@ -1,2 +1,9 @@
 <h1>Pages#home</h1>
 <p>Find me in app/views/pages/home.html.erb</p>
+
+<%= video_tag ["time_planet_presentation.mp4", "time_planet_presentation.webm"],
+    autoplay: :autoplay,
+    loop: :loop,
+    muted: :muted,
+    playsinline: :playsinline,
+    class: "Hero-video" %>
